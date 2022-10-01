@@ -22,7 +22,7 @@ func main() {
 
 func doSomething() error {
 	fmt.Println("started process")
-	time.Sleep(time.Second * 2)
+	time.Sleep(time.Second * 3)
 	fmt.Println("finished process")
 
 	return nil
